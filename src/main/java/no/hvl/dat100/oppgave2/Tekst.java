@@ -8,10 +8,7 @@ public class Tekst extends Innlegg {
 	// TODO: objektvariable 
 	protected String tekst;
 	
-	
-	public Tekst() {
-		
-	}
+
 	//konstruktører
 	public Tekst(int id, String bruker, String dato, String tekst) {
 		super(id, bruker, dato); //super fordi vi henter konstruktører fra foreldreklassen
